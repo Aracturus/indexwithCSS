@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+.mobile-firstlogonav{
+    display: none;
+}
+.firstnavbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.firstnavbar-left{
+    height: 2rem;
+}
+.firstnavbar-right{
+    /* float: right; */
+    text-decoration: none;
+    text-align: center; 
+    justify-content: center;
+} 
+.mainimage{
+    width:90vw;
+    height: fit-content;
+}
+.mainnav-img{
+    width: 12vw;
+}
+.phonnumber {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: azure;
+
+}
+.imagfirst2-nav{
+    margin-top: 3px;
+    width: 3rem;
+}
+.lowernavbar{
+    background-color: red;
+    color: aliceblue;
+
+}
+.lowernavbar-text{
+    font-style: bold;
+    font-size: large;
+    
+}
+ol{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+    list-style-type: none;
+    padding: 1rem;
+
+}
+.mainnavbar{
+    background-color: black;
+    color: gray;
+    font-size: 2rem;
+
+
+}
+.features{
+    padding-top: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    overflow: fixed;
+    background-color: rgb(231, 165, 165);
+    text-align: center;
+    column-gap: 1rem;
+    row-gap: 2rem;
+    color: gray;
+}
+.features-items{
+    margin: 4rem 2rem ;
+}
+.heading{
+    color: red;
+    font-size: 1.6rem;
+    text-align: center;
+    justify-content: center;
+
+}
+.list-items{
+    display: block;
+    justify-content: center;
+    padding: 2rem 4rem;
+}
+.left-text{
+    float: right;
+    width: 80%;
+    color: grey;
+}
+.list-items>img{
+    width:6rem;
+}
+@media screen and (max-width:700px) {
+    
+    .list-items{
+        display: block;
+        justify-content: center;
+        padding: 1rem 4rem;
+        font-size: 10px;
+        margin:0;
+        padding: 3px 1rem;
+    }
+    .list-items>img{
+        width:3rem;
+    }
+    .features{
+        padding-top: 0;
+        display: grid;
+        grid-template-columns: auto auto ;
+        justify-content: center;
+        background-color: rgb(231, 165, 165);
+        text-align: center;       
+        color: gray;
+    }
+    .features-items>img{
+        width: 4rem;
+    }
+    .firstnavbar{
+        display: none;
+    }
+    .mobile-firstlogonav{
+        display: flex;
+        background-color:black;
+        justify-content: space-between;
+
+
+    }
+    .mobile-logo{
+        width: 7rem;
+
+    }
+    ol{
+        display: grid;
+        grid-template-columns: auto auto;
+        font-size: small;
+    }
+    li{
+        border: 1px solid gray;
+        padding: 2px 2px;
+        margin: 5px;
+        background: rgb(70, 66, 66);
+
+    }
+ 
+    .mobile-nav{
+        display: none;
+    }
+    .mainnavbar{
+    font-size: 1rem;
+    text-align: center;
+
+    }
+}
